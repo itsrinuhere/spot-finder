@@ -20,7 +20,7 @@ def read_item(q:str):
     data = dict()
     ls =  list()
     data["city"]="hyderabad"
-    data["locations"]=["charminar","golcondafort","hussainsagar"] 
+    data["locations"]=["charminar","golcondafort","hussainsagar","falaknuma palace","s","ahs","dsudgiuqd","dnaiduhgwdgief"] 
     ls.append(data)
     data = dict()
     data["city"] = "warangal"

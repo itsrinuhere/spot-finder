@@ -4,15 +4,15 @@ export default function UserReflect({data}){
         return <>
     <div>
        <p> Results </p>
-       <h2> Searched for :{data.city}</h2><br/>
-        Locations are :{data.locations.map((i,index)=>{
-            return <>
-            <li key={index}><button onClick={()=>{
-                console.log(i);
-            }}>{i}</button></li>
-            </>
-        })}
-  
+       <div class="container text-center">
+            <div class="row">
+                {data.locations.map((i,index)=>{
+                    return  <div class="col">
+                        {i}
+                        </div>
+                })}
+            </div>
+        </div>
     </div>
   
     </>
