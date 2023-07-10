@@ -7,7 +7,7 @@ export default function App(){
   const url ="http://127.0.0.1:8000/";
    const[data,setData]=useState([])
    const getInput=(input)=>{
-    axios.get(`${url}/locations/${input}`).then((res)=>{
+    axios.get(`${url}location/${input}`).then((res)=>{
       setData(res.data);
     }).catch((error)=>{
       console.log(error);
